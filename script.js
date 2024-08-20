@@ -8,7 +8,7 @@ const kelvinToCelsius = (tempInKelvin) => tempInKelvin - 273.15;
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
-
+     
     iframe.src=`https://www.google.com/maps?q=${input.value}&t=&z=13&ie=UTF8&iwloc=&output=embed`
 
     getData(input.value)
